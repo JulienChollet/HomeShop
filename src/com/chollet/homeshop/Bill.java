@@ -2,6 +2,7 @@ package com.chollet.homeshop;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Bill {
     private Customer customer;
@@ -59,6 +60,7 @@ public class Bill {
         writer.writeLine("Total : " + this.getTotal());
         writer.stop();
     }
+
 
     /**
      * get the total price for the current bill, including products and delivery cost
