@@ -35,7 +35,7 @@ public class Product {
     }
 
 
-    public String getDescripton() {
+    public String getDescription() {
         return descripton;
     }
 

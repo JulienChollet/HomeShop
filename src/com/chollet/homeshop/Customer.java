@@ -10,6 +10,7 @@ public class Customer {
     }
 
     public String getFullName() {
+
         return fullName;
     }
 
